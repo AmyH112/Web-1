@@ -1,0 +1,47 @@
+body {
+    background-color:#544b3dff;
+    
+}
+
+h1 {
+    color:#ffffff;
+    font-family:"Tahoma";
+    font-size:35px;
+    
+}
+
+p {
+    color:lightpink;
+        font-family:"Helvetica";
+            
+}
+
+hr {
+    color:lightpink;
+    background-color:lightpink;
+    height:2px;
+    
+}
+
+.directory-bk {
+    background-color:#fed8d9ff;
+    
+    
+}
+
+h2 {
+    color:#544b3dff;
+    font-family:"Helvetica";
+    font-size:30px;
+    
+
+}
+
+ul {
+    color:#544b3dff;
+}
+
+a {
+    color:#c37d84ff;
+    
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: #ffeccc
+    
+}
+
+h1 {
+    color:#ffc047;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+section h2 {
+    color:#6bbaba;
+    
+}
+
+.green-text {
+    color:rgb(236, 100, 168);
+}
+
+.pink-bg {
+    background-color: lightpink;
+    
+}
+
