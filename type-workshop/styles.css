@@ -1,0 +1,56 @@
+body {
+    background-color:#9caba8;
+    
+}
+
+.type1 {
+    
+    font-family:"Pacifico";
+    font-weight:800;
+}
+
+.type2 {
+    
+    font-family:"BIZ UDPGothic";
+}
+
+.type3 {
+    font-family:"Kirang Haerang"
+};
+
+.type4 {
+    font-family:"Shrikhand";
+}
+
+.type5 {
+    font-family:"Frijole";
+    letter-spacing:15px;
+
+}
+
+.type6 {
+    font-family:"IM Fell Double Pica SC";
+    
+}
+
+.type7 {
+    font-family:"Pirata One";
+}
+
+.type8 {
+    font-family:"Poppins";
+    font-size:2em;
+    text-align:center;
+    
+}
+
+.type9 {
+    font-family:"Katibeh"; 
+    line-height:3;
+    text-align:center;
+}
+
+.type10 {
+    font-family:"Katibeh"; 
+    text-align:center;
+}
