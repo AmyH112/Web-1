@@ -1,0 +1,59 @@
+.yellow-container {
+    background-color: lightgoldenrodyellow;
+    width: 600px;
+    height: 1800px;
+    border: 3px solid lightblue;
+    
+}
+
+.background-one {
+    width:450px;
+    height: 300px;
+    background-image: url("../assets/dog.jpg");
+    background-size: 450px 300px;
+    margin: 25px auto;
+    
+    
+}
+
+.background-two {
+    width:450px;
+    height: 300px;
+    background-image: url("../assets/dog.jpg");
+    background-repeat: repeat;
+    background-size: 200px;
+    margin: 25px auto;
+    
+}
+
+.background-three {
+    width:450px;
+    height: 300px;
+    background-color: pink;
+    background-image: url("../assets/dog.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    margin: 25px auto;
+    
+}
+
+.custom-img-one {
+    width:450px;
+    height:300px;
+    margin: 25px 75px 25px 75px
+    
+    
+}
+
+
+.custom-img-two {
+    width:450px;
+    height:300px;
+    margin: 25px 75px 25px 75px;
+    background-color: pink;
+    object-fit: contain;
+    object-position: center bottom;
+}
+
+
