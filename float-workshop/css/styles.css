@@ -1,0 +1,99 @@
+.yellow-container {
+    background-color: yellow;
+
+    padding-top: 25px;
+    padding-bottom: 75px;
+   width:700px;
+}
+
+.green-container {
+    background-color: green;
+    height: 200px;
+    margin: 0.5px 50px 25px 50px;
+}
+
+.blue-box {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 25px;
+
+}
+
+.brown-box {
+    background-color: tan;
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin: 25px;
+}
+
+.slategray-container {
+    background-color: slategray;
+    margin: 25px 50px 25px 50px;
+    height: 375px;
+}
+
+.cream-box {
+    background-color: antiquewhite;
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+    float: left;
+}
+
+.black-box {
+    
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+    float: right;
+}
+
+.orange-box {
+    
+    background-color: orange;
+    height: 150px;
+    margin: 25px;
+    clear: both;
+    
+}
+
+.darkbrown-container {
+    background-color: saddlebrown;
+    margin: 25px 50px 0.5px 50px;
+    padding: 25px;
+    
+    
+}
+
+
+.purple-box {
+    background-color: purple;
+     width: 150px;
+    height: 150px;
+    margin-right:25px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.box-whitetext {
+    color: white;
+    text-align: center;
+    
+}
+
+.example-text {
+    color: white;
+    
+}
+
+.box-text {
+    text-align: center;
+}
+
+.orangebox-text {
+    text-align: center;
+}
