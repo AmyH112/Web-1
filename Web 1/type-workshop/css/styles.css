@@ -5,52 +5,52 @@ body {
 
 .type1 {
     
-    font-family:"Pacifico";
+    font-family:"Pacifico", cursive;
     font-weight:800;
 }
 
 .type2 {
     
-    font-family:"BIZ UDPGothic";
+    font-family:"BIZ UDPGothic", sans-serif;
 }
 
 .type3 {
-    font-family:"Kirang Haerang"
-};
+    font-family:"Kirang Haerang", system-ui;
+}
 
 .type4 {
-    font-family:"Shrikhand";
+    font-family:"Shrikhand", serif;
 }
 
 .type5 {
-    font-family:"Frijole";
+    font-family:"Frijole", system-ui;
     letter-spacing:15px;
 
 }
 
 .type6 {
-    font-family:"IM Fell Double Pica SC";
+    font-family:"IM Fell Double Pica SC", serif;
     
 }
 
 .type7 {
-    font-family:"Pirata One";
+    font-family:"Pirata One", system-ui;
 }
 
 .type8 {
-    font-family:"Poppins";
+    font-family:"Poppins", sans-serif;
     font-size:2em;
     text-align:center;
     
 }
 
 .type9 {
-    font-family:"Katibeh"; 
+    font-family:"Katibeh", serif; 
     line-height:3;
     text-align:center;
 }
 
 .type10 {
-    font-family:"Katibeh"; 
+    font-family:"Katibeh", serif; 
     text-align:center;
 }
