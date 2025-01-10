@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #134767;
+}
+
+/* Navigation bar */
+
+.nav-bar {
+    background-color: #ffffff;
+    padding: 4px 16px;
+}
+
+.pagelogo {
+    height: 35px;
+    object-fit: contain;
+    
+}
+
+nav {
+    float: right;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #134767;
+    text-decoration: none;
+    padding: 8px 10px;
+    background-color: #8bcff4ff;
+}
+
+nav a:hover {
+    background-color: #134767;
+    color: #8bcff4ff;
+}
+/* Hero banner */
+
+.hero {
+    padding: 80px 16px;
+    background-image: url("../images/minecraft-water.jpeg");
+    background-size: cover;
+    background-position: center top;
+    color: #FFF;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 28px;
+}
+
+.hero a {
+    font-size: 0.9em;
+    color: #134767;
+    text-decoration: none;
+    background-color: #FFF;
+    padding: 10px 12px;
+}
+
+.hero a:hover {
+    background-color: #134767;
+    color: #FFF;
+}
+
+/* Main Content */
+
+section {
+    clear: both;
+    padding: 24px 16px;
+    
+}
+
+.left {
+    float: left;
+    width: 50%
+}
+
+p {
+    color: #FFF;
+    font-size: 0.95em;
+}
+
+.right {
+    float: right;
+    width: 40%
+}
+
+.right img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center middle;
+    margin-top: 20px;
+    
+}
+
+.photo-description {
+    color: #8bcff4ff;
+    font-size: 0.75em;
+}
