@@ -1,0 +1,259 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 166px;
+    height:36px;
+}
+
+nav a {
+    padding-left: 12px;
+    text-decoration: none;
+    color: #182845;
+    
+}
+
+nav a:hover {
+    color: #8491a9;
+}
+
+.banner-rule {
+    height: 25px;
+    background-color: #182845;
+    border: none;
+    
+}
+
+
+.hero {
+    background-image: url(../images/banner-img.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center bottom;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.hero a {
+    
+    font-size: 0.7em;
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #182845;
+    margin-top:14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    
+    
+}
+
+.hero a:hover {
+    color:#182845;
+    background-color: #fff;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 1.8em;
+    color: #182845;
+    margin-bottom: 14px;
+}
+
+.welcome-home {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    
+}
+
+.about-us {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.7em;
+    background-color: #182845;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.about-us:hover {
+    background-color: #58657b;
+}
+
+.shop-now {
+     text-decoration: none;
+    color: #182845;
+    font-size: 0.7em;
+    border:solid;
+    border-color:#182845;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    
+}
+
+.shop-now:hover {
+    background-color: #58657b;
+    color: #fff;
+    border-color: #fff;
+}
+
+.about-shop-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    margin-top: 34px;
+}
+.welcome-rule {
+   height: 1px;
+    background-color: #182845;
+    border: none;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+}
+
+.all-cards {
+    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+   
+}
+
+h3 {
+    color: #182845;
+    font-weight: 100;
+    font-size: 1.4em;
+    margin-bottom: 6px;
+}
+
+.all-cards p {
+    font-size: 0.6em;
+    margin-top: 25px;
+}
+
+.card-images {
+    width: 52%;
+    
+}
+
+.card1, .card2, .card3, .card4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    
+    
+}
+
+.card1, .card3 {
+    text-align:right;
+}
+
+.card-hr1 {
+    height: 0.05em;
+    background-color: #182845;
+    border: none;
+    width:75px;
+    float:right;
+    
+    
+}
+
+.card-hr2 {
+     height: 0.05em;
+    background-color: #182845;
+    border: none;
+    width:75px;
+    float:left;
+    
+}
+
+footer {
+    background-color: #eaeaea;
+    font-size: 0.1em;
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    
+}
+
+.contact-cart-payment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 310px;
+    flex-wrap:wrap;
+    margin-bottom: 27px;
+}
+
+.cart-payment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 7px;
+    line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
