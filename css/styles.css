@@ -8,7 +8,7 @@ body {
     
 }
 
-.hero { background-image: url(../directory-assets/directory-banner.JPG);
+.hero { background-image: url(../banner.JPG);
     color: white;
     background-size: cover;
     background-position: center center;
