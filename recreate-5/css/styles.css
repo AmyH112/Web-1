@@ -26,6 +26,7 @@ h1 {
     font-size: 22px;
     font-family: "Manrope", sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 
 .learn-more {
@@ -167,13 +168,13 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFEE58; 
+    background-color: #ffee58;
     width: 100%;
     padding: 80px 120px;
     gap: 40px;
 }
 .subscribe h1 {
-     font-size: 42px;
+    font-size: 42px;
     font-family: "Manrope", sans-serif;
     font-weight: 300;
     text-align: center;
@@ -197,9 +198,8 @@ h1 {
     padding-bottom: 16px;
     padding-left: 25px;
     padding-right: 212px;
-    
+
     border-radius: 50px;
-  
 }
 
 .subscribe-button {
@@ -211,8 +211,6 @@ h1 {
     background-color: #000000;
     padding: 16px 36px;
     border-radius: 50px;
-    
-    
 }
 
 .subscribe-row {
@@ -223,6 +221,5 @@ h1 {
     flex-wrap: wrap;
     gap: 18px 22px;
 }
-
 
 /* font-family: "Manrope", sans-serif; */
