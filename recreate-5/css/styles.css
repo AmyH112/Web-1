@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Hero Section */
+
+.hero-frame {
+    width: 100%;
+    height: 458px;
+    padding: 1px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+}
+
+.hero-frame p {
+    font-size: 22px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+}
+
+.learn-more {
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    padding: 16px 36px;
+    border-radius: 50px;
+}
+
+/* About Us */
+
+.sect-1 {
+    width: 100%;
+    padding: 1px 120px;
+    padding-bottom: 97px;
+}
+
+.inner-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 138px;
+    width: 100%;
+}
+
+.column-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    width: 441px;
+    height: 279px;
+}
+
+.red-flower {
+    width: 463px;
+    height: 435px;
+    object-fit: cover;
+}
+
+.about-blurb {
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+}
+
+.badge {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+/* Our Services */
+.our-services {
+    width: 100%;
+    padding: 1px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+.services-h1 {
+    /*I had no basis to trying to make this work, very janky, I just played with this until it worked, no clue if this was even what I was supposed to do to make this title move to the center when the tab was condensed. sorry if its wrong! */
+    margin-bottom: 56px;
+    width: 71%;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.services-h1 h1 {
+    font-size: 42px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+}
+
+.flower-row img {
+    width: 100%;
+    height: 356px;
+}
+
+.flower-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 56px;
+}
+
+.flower-column-1,
+.flower-column-2,
+.flower-column-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 413.33px;
+}
+
+.deliver,
+.assemble,
+.collect {
+    width: 100%;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.cad-p {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+}
+
+.cad-h2 {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Subscribe */
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEE58; 
+    width: 100%;
+    padding: 80px 120px;
+    gap: 40px;
+}
+.subscribe h1 {
+     font-size: 42px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.subscribe-text {
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.email {
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: #767676;
+    background-color: #ffffff;
+    padding: 16px 36px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    padding-right: 212px;
+    
+    border-radius: 50px;
+  
+}
+
+.subscribe-button {
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    padding: 16px 36px;
+    border-radius: 50px;
+    
+    
+}
+
+.subscribe-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px 22px;
+}
+
+
+/* font-family: "Manrope", sans-serif; */
