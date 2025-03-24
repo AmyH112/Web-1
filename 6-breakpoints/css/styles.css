@@ -331,8 +331,22 @@ input {
         max-width: none; 
     }
     
-    .pricing img {
-        max-width: none;
+    
+    /* Subscribe */
+    
+   .cta {
+        padding:80px 16px;
     }
-   
+    
+    .cta .email-form {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        
+    }
+    
+    .cta .text {
+        max-width: none; 
+    }
+    
 }
