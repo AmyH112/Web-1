@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+  box-sizing: border-box;
+}
+.site {background-image: url(../images/web_scrollbacking.jpg);
+
+  min-height: 500px;
+    
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.navigation-bar {
+    background-color: #1f0e1d;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 23px 56px;
+}
+
+.nav-container {
+    width: 1328px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 20px 366px;
+}
+.nav-buttons {
+    width: 626px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 83px;
+    padding: 10px 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-buttons, a { text-decoration: none;
+    color: #ffcdd9;
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 36px;}
+.nav-buttons, a:hover {color: #d7ceffff;}
+
+.amyharvey {
+    color: #ffcdd9;
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+/* Main Content - Portfolio */
+
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1px 56px;
+}
+
+.portfolio-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 42px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-work-stack {
+    padding-top: 45px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:776px;
+}
+
+.work-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.work-card-1 {
+    width: 360px;
+    height: 1160px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-card-2 {
+    width: 360px;
+    height: 1160px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.full-portfolio-button {text-align: center;
+    padding: 30.5px 161px;
+    background-color: #1f0e1d;
+    text-decoration: none;
+    color: #ffcdd9;
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.25em;
+}
+.full-portfolio-button:hover {
+    color: #d7ceffff;
+}
+
+/*About Section */
+.about-section {
+  display: flex;
+flex-direction: row;
+  flex-wrap: wrap;
+    gap: 46px;
+    justify-content: center;
+
+    width: 1322px;
+    padding:50px 50px;
+}
+
+
+h2 {color: #1f0e1d;
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-size: 64px;}
+
+p {color: #1f0e1d;
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-size: 45px;}
+
+/* Main Content: Image Sizes */
+
+.sidebar-drawing {
+    width: 504px;
+    height: 1386px;
+}
+
+.portfolio-work-stack img {
+    width: 360px;
+    height: 570px;
+}
+
+.amyselfie {width:20%; height: 20%;}
+
+
+
+
+
+/* Mobile Breakpoint */
+
+@media only screen and (max-width: 768px) {
+    
+    /* Navigation Bar mobile*/
+    .nav-container {flex-direction:column; gap: 36px;}
+    .nav-buttons {justify-content: center;
+    align-items: center;}
+    
+    /* Main Section mobile */
+    .sidebar-drawing { display: none;}
+    .portfolio-work-stack {flex-direction:column-reverse;}
+    .full-portfolio-button { text-align: center;
+    padding: 20px 55px;
+    background-color: #1f0e1d;
+    text-decoration: none;
+    color: #ffcdd9;
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 27px;
+        letter-spacing: 0.25em;}
+    
+.main-content { padding-bottom: 50px;}
+    
+    
+/*About Me mobile */
+.about-container { display:flex; 
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-section { display:flex; 
+flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.about-container, img {width: 90%; height: 90%;}
+h2 { color: #1f0e1d;
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 40px;}
+.about-info, p {color: #1f0e1d;
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 32px; }
+}
+
+
